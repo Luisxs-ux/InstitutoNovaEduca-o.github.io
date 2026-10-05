@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal institucional do Instituto Nova Educação — cursos, notícias e informações acadêmicas.">
+  <title>Instituto Nova Educação | Portal Institucional</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top main-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio">
+        <span class="brand-mark">N</span>
+        Instituto Nova Educação
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#noticias">Notícias</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Áreas de Ensino
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end shadow">
+              <li><a class="dropdown-item" href="#cursos">Tecnologia</a></li>
+              <li><a class="dropdown-item" href="#cursos">Gestão</a></li>
+              <li><a class="dropdown-item" href="#cursos">Engenharia</a></li>
+              <li><a class="dropdown-item" href="#cursos">Comunicação</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-primary rounded-pill px-4" href="#cursos">Conheça os cursos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio" class="hero-section">
+    <div class="container position-relative z-2">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="eyebrow">EDUCAÇÃO QUE TRANSFORMA</span>
+          <h1 class="display-3 fw-bold mt-3">Seu futuro começa com uma <span>nova escolha.</span></h1>
+          <p class="lead mt-4 mb-4">No Instituto Nova Educação, você encontra formação de qualidade, professores preparados e uma comunidade pronta para transformar conhecimento em oportunidades.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#cursos" class="btn btn-primary btn-lg rounded-pill px-4">Explorar cursos</a>
+            <a href="#sobre" class="btn btn-outline-light btn-lg rounded-pill px-4">Conheça a instituição</a>
+          </div>
+          <div class="hero-trust mt-5">
+            <div><strong>98%</strong><span>de satisfação</span></div>
+            <div><strong>+12 mil</strong><span>formados</span></div>
+            <div><strong>35+</strong><span>anos de história</span></div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-card">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85" alt="Estudantes em ambiente universitário" class="img-fluid rounded-4">
+            <div class="floating-card">
+              <span class="floating-icon">★</span>
+              <div><strong>Excelência acadêmica</strong><small>Aprendizado conectado ao mercado</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-shape"></div>
+  </header>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="section-label">SOBRE NÓS</span>
+          <h2 class="section-title">Conhecimento para construir novas possibilidades.</h2>
+          <p class="text-secondary">O Instituto Nova Educação é uma instituição dedicada à formação acadêmica e profissional. Nossa proposta combina ensino, tecnologia e experiências práticas para preparar estudantes para os desafios do presente e do futuro.</p>
+          <p class="text-secondary">Aqui, cada aluno encontra um ambiente acolhedor, professores qualificados e oportunidades para desenvolver competências que fazem diferença na vida profissional.</p>
+          <a href="#contato" class="btn btn-dark rounded-pill px-4 mt-2">Fale com a instituição</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-image-wrap">
+            <img src="https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=1000&q=85" alt="Campus e estudantes" class="img-fluid rounded-4 shadow-sm">
+            <div class="about-badge"><strong>35+</strong><span>anos educando</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDICADORES -->
+  <section class="stats-section section-padding-sm">
+    <div class="container">
+      <div class="row g-3 text-center">
+        <div class="col-6 col-lg-3"><div class="stat-item"><strong>12.500+</strong><span>Alunos formados</span></div></div>
+        <div class="col-6 col-lg-3"><div class="stat-item"><strong>18</strong><span>Cursos oferecidos</span></div></div>
+        <div class="col-6 col-lg-3"><div class="stat-item"><strong>240+</strong><span>Professores</span></div></div>
+        <div class="col-6 col-lg-3"><div class="stat-item"><strong>98%</strong><span>Satisfação dos alunos</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS -->
+  <section id="cursos" class="section-padding">
+    <div class="container">
+      <div class="section-heading text-center mx-auto">
+        <span class="section-label">FORMAÇÃO</span>
+        <h2 class="section-title">Encontre o curso certo para você.</h2>
+        <p class="text-secondary">Escolha uma área, desenvolva suas habilidades e prepare-se para o mercado de trabalho.</p>
+      </div>
+
+      <div class="row g-4 mt-3">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Tecnologia da Informação">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Tecnologia</span><h3 class="h4 mt-2">Análise e Desenvolvimento de Sistemas</h3>
+              <p class="text-secondary">Aprenda programação, banco de dados, engenharia de software e desenvolvimento de aplicações.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalAds">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Administração e gestão">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Gestão</span><h3 class="h4 mt-2">Administração</h3>
+              <p class="text-secondary">Desenvolva visão estratégica para atuar em organizações, negócios, finanças e pessoas.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalAdm">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=80" alt="Engenharia">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Engenharia</span><h3 class="h4 mt-2">Engenharia de Produção</h3>
+              <p class="text-secondary">Integre tecnologia, processos, gestão e inovação para melhorar resultados e produtividade.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalEng">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80" alt="Marketing digital">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Comunicação</span><h3 class="h4 mt-2">Marketing Digital</h3>
+              <p class="text-secondary">Crie estratégias digitais, campanhas, conteúdos e experiências para marcas e públicos.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalMkt">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80" alt="Gestão de pessoas">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Gestão</span><h3 class="h4 mt-2">Gestão de Recursos Humanos</h3>
+              <p class="text-secondary">Aprenda a desenvolver pessoas, processos de recrutamento, treinamento e cultura organizacional.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalRh">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-6 col-xl-4">
+          <article class="course-card h-100">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Ciência de dados">
+            <div class="p-4 d-flex flex-column h-100">
+              <span class="course-tag">Tecnologia</span><h3 class="h4 mt-2">Ciência de Dados</h3>
+              <p class="text-secondary">Transforme dados em informações para apoiar decisões e solucionar problemas reais.</p>
+              <button class="btn btn-outline-dark rounded-pill mt-auto" data-bs-toggle="modal" data-bs-target="#modalDados">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTÍCIAS -->
+  <section id="noticias" class="section-padding bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-5">
+        <div><span class="section-label light">ATUALIDADES</span><h2 class="section-title text-white mb-0">Notícias do Instituto</h2></div>
+        <a href="#noticias" class="btn btn-outline-light rounded-pill">Ver todas</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4"><article class="news-card"><div class="news-date">15 SET 2026</div><h3>Instituto inaugura novo laboratório de tecnologia</h3><p>Espaço amplia as possibilidades de aulas práticas e projetos de inovação.</p><a href="#" class="news-link">Leia mais →</a></article></div>
+        <div class="col-lg-4"><article class="news-card"><div class="news-date">02 SET 2026</div><h3>Semana Acadêmica reúne estudantes e profissionais</h3><p>Palestras e oficinas aproximam os alunos das tendências do mercado.</p><a href="#" class="news-link">Leia mais →</a></article></div>
+        <div class="col-lg-4"><article class="news-card"><div class="news-date">21 AGO 2026</div><h3>Projeto de extensão beneficia comunidade local</h3><p>Estudantes participam de ações que conectam conhecimento e impacto social.</p><a href="#" class="news-link">Leia mais →</a></article></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABELA -->
+  <section class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-heading text-center mx-auto mb-5"><span class="section-label">CONSULTA</span><h2 class="section-title">Conheça nossas modalidades</h2><p class="text-secondary">Confira carga horária e investimento estimado dos cursos.</p></div>
+      <div class="table-responsive shadow-sm rounded-4 bg-white">
+        <table class="table table-hover align-middle mb-0">
+          <thead><tr><th>Curso</th><th>Modalidade</th><th>Carga horária</th><th>Investimento</th></tr></thead>
+          <tbody>
+            <tr><td>Análise e Desenvolvimento de Sistemas</td><td><span class="badge text-bg-primary">Presencial</span></td><td>2.000 h</td><td>R$ 599/mês</td></tr>
+            <tr><td>Administração</td><td><span class="badge text-bg-secondary">Híbrida</span></td><td>3.000 h</td><td>R$ 549/mês</td></tr>
+            <tr><td>Engenharia de Produção</td><td><span class="badge text-bg-primary">Presencial</span></td><td>4.000 h</td><td>R$ 749/mês</td></tr>
+            <tr><td>Marketing Digital</td><td><span class="badge text-bg-secondary">Online</span></td><td>1.600 h</td><td>R$ 399/mês</td></tr>
+            <tr><td>Gestão de Recursos Humanos</td><td><span class="badge text-bg-secondary">Híbrida</span></td><td>1.800 h</td><td>R$ 449/mês</td></tr>
+            <tr><td>Ciência de Dados</td><td><span class="badge text-bg-primary">Presencial</span></td><td>2.400 h</td><td>R$ 699/mês</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section-padding">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-5">
+          <span class="section-label">CONTATO</span>
+          <h2 class="section-title">Vamos conversar sobre seu próximo passo?</h2>
+          <p class="text-secondary">Preencha o formulário e nossa equipe entrará em contato para tirar suas dúvidas sobre cursos e matrícula.</p>
+          <div class="contact-info mt-4">
+            <div><span>⌖</span><div><strong>Endereço</strong><p>Av. da Educação, 1000 — Centro, São Paulo - SP</p></div></div>
+            <div><span>☎</span><div><strong>Telefone</strong><p>(11) 4000-2026</p></div></div>
+            <div><span>✉</span><div><strong>E-mail</strong><p>contato@novaeducacao.edu.br</p></div></div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form class="contact-form p-4 p-md-5" onsubmit="return false;">
+            <div class="row g-3">
+              <div class="col-md-6"><label for="nome" class="form-label">Nome</label><input type="text" class="form-control" id="nome" placeholder="Seu nome" required></div>
+              <div class="col-md-6"><label for="email" class="form-label">E-mail</label><input type="email" class="form-control" id="email" placeholder="seu@email.com" required></div>
+              <div class="col-md-6"><label for="telefone" class="form-label">Telefone</label><input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000"></div>
+              <div class="col-md-6"><label for="curso" class="form-label">Curso de interesse</label><select class="form-select" id="curso"><option selected>Selecione...</option><option>ADS</option><option>Administração</option><option>Engenharia de Produção</option><option>Marketing Digital</option><option>Gestão de RH</option><option>Ciência de Dados</option></select></div>
+              <div class="col-12"><label for="mensagem" class="form-label">Mensagem</label><textarea class="form-control" id="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea></div>
+              <div class="col-12"><button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">Enviar mensagem</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-5"><a class="footer-brand" href="#inicio"><span class="brand-mark">N</span> Instituto Nova Educação</a><p class="text-white-50 mt-3 mb-0">Formando pessoas para transformar ideias em possibilidades.</p></div>
+        <div class="col-6 col-lg-2"><h6>Portal</h6><a href="#inicio">Início</a><a href="#cursos">Cursos</a><a href="#noticias">Notícias</a></div>
+        <div class="col-6 col-lg-2"><h6>Instituição</h6><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a><a href="#cursos">Áreas de ensino</a></div>
+        <div class="col-lg-3"><h6>Redes sociais</h6><div class="socials"><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="LinkedIn">LinkedIn</a><a href="#" aria-label="Facebook">Facebook</a></div></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container d-flex flex-wrap justify-content-between gap-2"><span>© 2026 Instituto Nova Educação. Todos os direitos reservados.</span><span>Portal Institucional Responsivo</span></div></div>
+  </footer>
+
+  <!-- MODAIS DOS CURSOS -->
+  <div class="modal fade" id="modalAds" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Análise e Desenvolvimento de Sistemas</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> desenvolver aplicações e soluções de software.</p><p><strong>Carga horária:</strong> 2.000 horas.</p><p><strong>Público-alvo:</strong> pessoas interessadas em tecnologia e programação.</p><p><strong>Descrição:</strong> formação prática em programação, banco de dados, engenharia de software e desenvolvimento web.</p></div></div></div></div>
+  <div class="modal fade" id="modalAdm" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Administração</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> formar profissionais para gestão estratégica.</p><p><strong>Carga horária:</strong> 3.000 horas.</p><p><strong>Público-alvo:</strong> interessados em negócios e gestão.</p><p><strong>Descrição:</strong> conteúdos de finanças, marketing, pessoas, processos e estratégia.</p></div></div></div></div>
+  <div class="modal fade" id="modalEng" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Engenharia de Produção</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> otimizar processos e recursos organizacionais.</p><p><strong>Carga horária:</strong> 4.000 horas.</p><p><strong>Público-alvo:</strong> interessados em engenharia, processos e inovação.</p><p><strong>Descrição:</strong> formação integrada em gestão, tecnologia, qualidade e produtividade.</p></div></div></div></div>
+  <div class="modal fade" id="modalMkt" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Marketing Digital</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> planejar e executar estratégias de comunicação digital.</p><p><strong>Carga horária:</strong> 1.600 horas.</p><p><strong>Público-alvo:</strong> interessados em comunicação, conteúdo e negócios digitais.</p><p><strong>Descrição:</strong> formação em mídias sociais, conteúdo, campanhas, métricas e comportamento do consumidor.</p></div></div></div></div>
+  <div class="modal fade" id="modalRh" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Gestão de Recursos Humanos</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> desenvolver profissionais capazes de gerir pessoas e talentos.</p><p><strong>Carga horária:</strong> 1.800 horas.</p><p><strong>Público-alvo:</strong> interessados em gestão de pessoas.</p><p><strong>Descrição:</strong> recrutamento, treinamento, desenvolvimento, clima e cultura organizacional.</p></div></div></div></div>
+  <div class="modal fade" id="modalDados" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title h5">Ciência de Dados</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p><strong>Objetivos:</strong> transformar dados em informações úteis para decisões.</p><p><strong>Carga horária:</strong> 2.400 horas.</p><p><strong>Público-alvo:</strong> interessados em tecnologia, dados e análise.</p><p><strong>Descrição:</strong> fundamentos de dados, estatística, visualização e soluções orientadas por informação.</p></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
